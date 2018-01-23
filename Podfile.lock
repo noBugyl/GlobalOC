@@ -23,6 +23,7 @@ PODS:
   - libwebp/utils (0.6.0):
     - libwebp/core
   - libwebp/webp (0.6.0)
+  - Masonry (1.1.0)
   - pop (1.0.10)
   - SDWebImage/Core (4.2.2)
   - SDWebImage/WebP (4.2.2):
@@ -30,14 +31,16 @@ PODS:
     - SDWebImage/Core
 
 DEPENDENCIES:
+  - Masonry
   - pop (~> 1.0)
   - SDWebImage/WebP
 
 SPEC CHECKSUMS:
   libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
 
-PODFILE CHECKSUM: bee4d07469ec985923b7e69f415a293143929169
+PODFILE CHECKSUM: 7b393d278e3d4351eeeea4ce62a44966340daa35
 
 COCOAPODS: 1.4.0.rc.1

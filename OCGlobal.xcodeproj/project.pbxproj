@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1653585045B5D67107CA6492 /* libPods-OCGlobal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDB57B267305D0B164CDCA /* libPods-OCGlobal.a */; };
-		2C42A9B52015EADE004398DA /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42A9B42015EADE004398DA /* NavViewController.m */; };
-		2C42A9B72015FD8C004398DA /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C42A9B62015FD8C004398DA /* 1.jpeg */; };
 		2C93570120089AEA001E99C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93570020089AEA001E99C4 /* AppDelegate.m */; };
 		2C93570420089AEA001E99C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93570320089AEA001E99C4 /* ViewController.m */; };
 		2C93570720089AEA001E99C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93570520089AEA001E99C4 /* Main.storyboard */; };
 		2C93570920089AEA001E99C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C93570820089AEA001E99C4 /* Assets.xcassets */; };
 		2C93570C20089AEA001E99C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C93570A20089AEA001E99C4 /* LaunchScreen.storyboard */; };
 		2C93570F20089AEA001E99C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93570E20089AEA001E99C4 /* main.m */; };
-		2C93571720089B04001E99C4 /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93571620089B04001E99C4 /* KeychainManager.m */; };
+		2CFF5ABE2017157C00717F7F /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF5AB92017157B00717F7F /* KeychainManager.m */; };
+		2CFF5ABF2017157C00717F7F /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF5ABB2017157B00717F7F /* NavViewController.m */; };
+		2CFF5AC02017157C00717F7F /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFF5ABD2017157B00717F7F /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1749EA68243D134443AD9122 /* Pods-OCGlobal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCGlobal.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCGlobal/Pods-OCGlobal.release.xcconfig"; sourceTree = "<group>"; };
 		204CD29935A903DC20E18279 /* Pods-OCGlobal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCGlobal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCGlobal/Pods-OCGlobal.debug.xcconfig"; sourceTree = "<group>"; };
-		2C42A9B32015EADE004398DA /* NavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
-		2C42A9B42015EADE004398DA /* NavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
-		2C42A9B62015FD8C004398DA /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		2C9356FC20089AEA001E99C4 /* OCGlobal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCGlobal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9356FF20089AEA001E99C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C93570020089AEA001E99C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,8 +32,12 @@
 		2C93570B20089AEA001E99C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C93570D20089AEA001E99C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C93570E20089AEA001E99C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C93571520089B04001E99C4 /* KeychainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
-		2C93571620089B04001E99C4 /* KeychainManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
+		2CFF5AB72017157B00717F7F /* GLobalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLobalDelegate.h; sourceTree = "<group>"; };
+		2CFF5AB82017157B00717F7F /* KeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
+		2CFF5AB92017157B00717F7F /* KeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
+		2CFF5ABA2017157B00717F7F /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		2CFF5ABB2017157B00717F7F /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		2CFF5ABD2017157B00717F7F /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		DEEDB57B267305D0B164CDCA /* libPods-OCGlobal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCGlobal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,6 +56,7 @@
 		2C9356F320089AEA001E99C4 = {
 			isa = PBXGroup;
 			children = (
+				2CFF5AB62017157B00717F7F /* GlobalFile */,
 				2C9356FE20089AEA001E99C4 /* OCGlobal */,
 				2C9356FD20089AEA001E99C4 /* Products */,
 				DBACAC0BC5BBE3422D960810 /* Pods */,
@@ -77,11 +79,6 @@
 				2C93570020089AEA001E99C4 /* AppDelegate.m */,
 				2C93570220089AEA001E99C4 /* ViewController.h */,
 				2C93570320089AEA001E99C4 /* ViewController.m */,
-				2C42A9B32015EADE004398DA /* NavViewController.h */,
-				2C42A9B42015EADE004398DA /* NavViewController.m */,
-				2C93571520089B04001E99C4 /* KeychainManager.h */,
-				2C93571620089B04001E99C4 /* KeychainManager.m */,
-				2C42A9B62015FD8C004398DA /* 1.jpeg */,
 				2C93570520089AEA001E99C4 /* Main.storyboard */,
 				2C93570820089AEA001E99C4 /* Assets.xcassets */,
 				2C93570A20089AEA001E99C4 /* LaunchScreen.storyboard */,
@@ -89,6 +86,27 @@
 				2C93570E20089AEA001E99C4 /* main.m */,
 			);
 			path = OCGlobal;
+			sourceTree = "<group>";
+		};
+		2CFF5AB62017157B00717F7F /* GlobalFile */ = {
+			isa = PBXGroup;
+			children = (
+				2CFF5AB72017157B00717F7F /* GLobalDelegate.h */,
+				2CFF5AB82017157B00717F7F /* KeychainManager.h */,
+				2CFF5AB92017157B00717F7F /* KeychainManager.m */,
+				2CFF5ABA2017157B00717F7F /* NavViewController.h */,
+				2CFF5ABB2017157B00717F7F /* NavViewController.m */,
+				2CFF5ABC2017157B00717F7F /* Resource */,
+			);
+			path = GlobalFile;
+			sourceTree = "<group>";
+		};
+		2CFF5ABC2017157B00717F7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2CFF5ABD2017157B00717F7F /* 1.jpeg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		3ADD272BB7138B34AF892062 /* Frameworks */ = {
@@ -177,7 +195,7 @@
 				2C93570C20089AEA001E99C4 /* LaunchScreen.storyboard in Resources */,
 				2C93570920089AEA001E99C4 /* Assets.xcassets in Resources */,
 				2C93570720089AEA001E99C4 /* Main.storyboard in Resources */,
-				2C42A9B72015FD8C004398DA /* 1.jpeg in Resources */,
+				2CFF5AC02017157C00717F7F /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +260,8 @@
 				2C93570420089AEA001E99C4 /* ViewController.m in Sources */,
 				2C93570F20089AEA001E99C4 /* main.m in Sources */,
 				2C93570120089AEA001E99C4 /* AppDelegate.m in Sources */,
-				2C93571720089B04001E99C4 /* KeychainManager.m in Sources */,
-				2C42A9B52015EADE004398DA /* NavViewController.m in Sources */,
+				2CFF5ABE2017157C00717F7F /* KeychainManager.m in Sources */,
+				2CFF5ABF2017157C00717F7F /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
