@@ -1,0 +1,8 @@
+platform :ios, ‘8.0’
+
+
+target ‘OCGlobal’ do
+pod ‘SDWebImage/WebP’
+pod 'pop', '~> 1.0'
+
+end
